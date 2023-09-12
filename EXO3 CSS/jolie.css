@@ -1,0 +1,19 @@
+h1{
+    font-size: xx-large;
+    color: blue;
+}
+h1:hover{
+    color: green;
+}
+p:active{
+    background-color: grey;
+}
+a{
+    color: rgb(255, 115, 0);
+}
+a:visited{
+    color: rgb(182, 182, 182);
+}
+img:hover{
+    display: none;
+}

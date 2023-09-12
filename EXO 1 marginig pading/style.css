@@ -1,0 +1,28 @@
+p{
+    background-color: rgb(199, 199, 199);
+    border: 3px solid rgb(21, 255, 0);
+}
+#p1{
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+}
+#p2{
+    width: 50%; 
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#p3{
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+body{
+    background-color: purple;
+    margin: 0px;
+}

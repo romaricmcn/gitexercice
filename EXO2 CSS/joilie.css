@@ -1,0 +1,32 @@
+h1{
+    color: rgb(189, 5, 5);
+    text-align: center;
+}
+.fondGris{
+    background-color: grey;
+}
+h3{
+    font-size: x-large;
+    color: rgb(22, 22, 248);
+}
+em{
+    font-style: normal;
+    color: rgb(255, 136, 0);
+    font-size: xx-large;
+    text-decoration-line: underline;
+}
+strong{
+    font-weight: normal;
+    color: yellowgreen;
+}
+#fondRose{
+    background-color: pink;
+}
+#titre2{
+    text-align: right;
+    color: green;
+    text-decoration-line: underline;
+}
+body{
+    size: 400%;
+}

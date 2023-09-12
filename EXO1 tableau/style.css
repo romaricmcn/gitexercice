@@ -1,0 +1,48 @@
+caption{
+    color: purple;
+    font-size: xx-large;
+}
+table{
+    border-color: purple;
+    border-style: double;
+    border-width: 3px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#table2{
+    font-family: comic sans ms;
+    text-shadow: 1px 1px white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-collapse: collapse;
+    text-align: center;
+    background: repeating-radial-gradient(50px,black,pink,yellow,rgb(0, 1, 35),red,green,orange)
+}
+h1{
+    font-family: comic sans ms;
+    font-style: italic;
+    border: solid 6px violet;
+    background-color: brown;
+    color: greenyellow;
+}
+div{
+    border: 6px;
+    border-color: violet;
+}

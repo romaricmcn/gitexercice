@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tableau{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20px;
+}
+.messageRight{
+    background-color: grey;
+}
+#messages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 75%;
+    height: 75%;
+    align-self: flex-start;
+}
+#one{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+#two{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+#three{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+}
+#four{
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+}
+#five{
+    display: grid;
+    grid-column: 1;
+    grid-row: 5;
+}
+#six{
+    display: grid;
+    grid-column: 2;
+    grid-row: 6;
+}

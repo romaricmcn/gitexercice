@@ -1,0 +1,29 @@
+form{
+    background-color: lightgrey;
+    border: solid black 1px;
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    padding: 30px;
+    line-height: 30px;
+}
+h1{
+    text-align: center;
+}
+.block1{
+    margin-left: 10px;
+}
+.bouton{
+    padding: 5px;
+    margin: 20px;
+}
+#boutons{
+    text-align: center;
+}
+#souvenir{
+    padding-left: 10px;
+}
+.bouton:hover{
+    color: white;
+    background-color : black;
+}

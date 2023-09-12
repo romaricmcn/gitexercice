@@ -1,0 +1,24 @@
+body * {
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    margin: 20px;
+}
+div:first-child {
+    background: linear-gradient(45deg, blue, green, red);
+}
+div:nth-child(2) {
+    background: linear-gradient(-70deg, yellow , purple 25%);
+}
+p {
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(0,0,0,0.50));
+}
+div:nth-child(3){
+    background: radial-gradient(rgb(110, 232, 253)10%,rgb(255, 159, 236)90%);
+}
+div:nth-child(4){
+    background: repeating-radial-gradient(10px,black,white)
+}
+div:nth-child(4):hover{
+    background: repeating-radial-gradient(10px,white,black)
+}
