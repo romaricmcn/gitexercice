@@ -1,0 +1,149 @@
+body,ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #1e1e1e;
+}
+
+/* style du header */
+header {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* titre header */
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+h1 a {
+  text-decoration: none; 
+  color: #ffffff; 
+} 
+
+/* style de la nav bar */
+nav {
+  background-color: #878787;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+li {
+  text-align: center;
+}
+.nav {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-weight: bold;
+}
+
+/* block d'acceuil */
+.acceuil {
+  background-image: url("../../ADRAR/File_Rouge/ressources/fond-dessin.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 0;
+}
+.messageBienvenu {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.boutton {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+/* prez artiste */
+.prez-artiste {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+}
+.nom-artiste {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+.titre-artiste {
+  font-size: 1.2em;
+  margin-bottom: 0.25em;
+}
+.description-artiste {
+  margin-bottom: 1em;
+}
+/*boutton contact*/
+.boutton-contact {
+  display: block;
+  background-color: #878787;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+/* prez residence */
+.residence {
+  background-image: url("../../ADRAR/File_Rouge/ressources/bisqueRageShop_V.1.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 0;
+  color: #ffffff;
+}
+.titre-residence {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.nom-shop {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+.emplacement {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.sub-text-residence {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+/* footer */
+.footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lien-reseaux a {
+  color: #ffffff;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.reste-footer a {
+  color: #ffffff;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}

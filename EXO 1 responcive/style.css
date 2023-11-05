@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    background-color: rgb(187, 187, 187);
+}
+section{
+    display: flex;
+}
+div{
+    text-align: center;
+    border: solid black 1px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 25%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    background-color: black;
+    color: white;
+}
+#baniere{
+    width: 100%;
+}
+.img{
+    width: 20%;
+    height: 50%;
+}
